@@ -1337,7 +1337,7 @@ public class PlayerActivity extends Activity {
         player = AssPlayerKt.buildWithAssSupport(
                 playerBuilder,
                 this,
-                AssRenderType.OVERLAY_OPEN_GL,
+                AssRenderType.OVERLAY_CANVAS,
                 playerView.getSubtitleView(),
                 dataSourceFactory != null? dataSourceFactory : new DefaultDataSource.Factory(this),
                 extractorsFactory,
